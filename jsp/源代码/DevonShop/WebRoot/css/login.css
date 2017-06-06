@@ -1,0 +1,563 @@
+@charset "utf-8"; 
+
+body {
+	background-color: #ffffff;
+}
+
+body,div,p,h3,h4,ul,li {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	list-style: none
+}
+
+form,table,th,td {
+	margin: 0;
+	padding: 0
+}
+
+body,th,td,input {
+	font-size: 12px;
+	color: #000;
+	font-family: "宋体", Arial, Helvetica, sans-serif
+}
+
+a:link,a:visited {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	overflow: hidden
+}
+
+.fl {
+	float: left
+}
+
+.wid950 {
+	width: 950px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.top {
+	height: 36px;
+	padding: 20px 0 0
+}
+
+.logo {
+	float: left;
+	width: 143px;
+	height: 36px;
+	background: url(../images/img.png) no-repeat 0 0;
+	margin-left: 16px;
+	display: inline
+}
+
+.mid {
+	width: 950px;
+	padding: 26px 0 41px;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	background: url(../images/img.png) repeat-x 0 -265px;
+	overflow: hidden;
+	zoom: 1;
+	width: 950px;
+	padding-top: 14px;
+	line-height: 20px;
+	color: #999
+}
+
+.footer a {
+	color: #676767
+}
+
+.footer .left {
+	float: left
+}
+
+.footer .left a {
+	color: #999
+}
+
+.footer .right {
+	float: right;
+	text-align: right
+}
+
+.footer span {
+	padding: 0 8px
+}
+
+.othLink {
+	float: right;
+	overflow: hidden;
+	zoom: 1
+}
+
+.othLink span {
+	color: #b1b2b2;
+	padding: 0 10px
+}
+
+.othLink .left {
+	font-size: 12px;
+	float: left;
+	padding-top: 16px
+}
+
+.othLink .left a:link,.othLink .left a:visited,.othLink .left a:hover {
+	color: #000
+}
+
+.othLink .right {
+	float: left;
+	padding-top: 18px
+}
+
+.othLink .right a:link,.othLink .right a:visited,.othLink .right a:hover
+	{
+	color: #676868
+}
+
+.advConn {
+	position: absolute;
+	left: 117px;
+	top: 320px
+}
+
+.advConn h4 {
+	font-weight: bold;
+	line-height: 36px;
+	font-size: 14px
+}
+
+.advConn li {
+	line-height: 18px;
+	color: #666
+}
+
+.login_main {
+	position: relative;
+	width: 334px;
+	top: 0;
+	left: 502px
+}
+
+.nav {
+	height: 49px;
+	overflow: hidden;
+	zoom: 1
+}
+
+.nav a {
+	float: left;
+	background: url(../images/img.png) no-repeat 0 -40px;
+	width: 167px;
+	height: 49px;
+	text-align: center;
+	line-height: 56px;
+	color: #333;
+	font-weight: bold
+}
+
+.nav a:link,.nav a:visited,.nav a:hover {
+	text-decoration: none;
+	font-size: 14px
+}
+
+.nav a.cur_1,.nav a.cur_2 {
+	height: 41px;
+	line-height: 41px;
+	margin-top: 8px;
+	cursor: pointer;
+	font-weight: normal
+}
+
+.nav a.cur_1 {
+	background: url(../images/img.png) no-repeat 0 -140px
+}
+
+.nav a.cur_2 {
+	background: url(../images/img.png) no-repeat 0 -95px
+}
+
+.userLogin {
+	padding: 10px 0 19px;
+	border: 1px solid #878787;
+	border-top: 0;
+	background-color: #fff
+}
+
+.userLogin a {
+	color: #205b9e
+}
+
+.userLogin a:link,.userLogin a:visited,.userLogin a:hover {
+	text-decoration: underline
+}
+
+.userLogin th {
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: normal
+}
+
+.userLogin th,.userLogin td {
+	padding-bottom: 16px
+}
+
+.userLogin .suffix {
+	font-family: verdana
+}
+
+.tr_username td,.tr_username th {
+	padding-bottom: 4px
+}
+
+.tr_srt th,.tr_srt td {
+	padding-bottom: 4px;
+	vertical-align: top
+}
+
+.tr_srt th {
+	padding-top: 7px
+}
+
+.tr_select th,.tr_select td {
+	padding-bottom: 8px
+}
+
+.tr_btn td,.tr_btn th {
+	padding: 10px 0 10px 0
+}
+
+.tr_btn .ye {
+	color: #205b9e
+}
+
+.login_name {
+	display: inline-block;
+	margin: 13px 0 0 26px
+}
+
+.xufei {
+	background: url(../images/xufei.png) no-repeat 0;
+	padding-left: 20px
+}
+
+.useway {
+	background: url(../images/img.png) no-repeat -320px 0;
+	padding-left: 18px;
+	color: #999
+}
+
+.input_text {
+	border: 1px solid #c1c1c1;
+	width: 171px;
+	height: 25px;
+	line-height\0: 25px;
+	margin-right: 6px;
+	font-family: verdana
+}
+
+.vip_txt {
+	width: 125px
+}
+
+.userLogin label {
+	padding-right: 15px;
+	vertical-align: 2px; *
+	vertical-align: 3px;
+	cursor: pointer
+}
+
+.btn_login a:link,.btn_login a:visited,.btn_login a:hover {
+	text-decoration: none;
+	color: #333
+}
+
+.btn_login {
+	overflow: hidden;
+	zoom: 1
+}
+
+.btn_login a,.btn_login span {
+	float: left;
+	cursor: pointer;
+	background: url(../images/img.png) no-repeat;
+	line-height: 31px;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.btn_login a:link,.btn_login a:visited {
+	background-position: 0 -189px;
+	padding-left: 28px
+}
+
+.btn_login a:link span,.btn_login a:visited span {
+	background-position: right -189px;
+	padding-right: 28px
+}
+
+.btn_login a:hover {
+	background-position: 0 -230px;
+	padding-left: 28px
+}
+
+.btn_login a:hover span {
+	background-position: right -230px;
+	padding-right: 28px
+}
+
+.btn_regist {
+	padding: 16px 0 13px 75px
+}
+
+.btn_regist a,.btn_regist span {
+	font-weight: normal
+}
+
+.bg_line {
+	background: url(../images/img.png) no-repeat 0 -225px;
+	height: 1px;
+	overflow: hidden
+}
+
+.linkInf {
+	line-height: 20px;
+	padding-left: 21px
+}
+
+.bg_shadow {
+	width: 334px;
+	background: url(../images/shadow.png) no-repeat;
+	overflow: hidden;
+	height: 8px
+}
+
+.safeTip {
+	border: 1px solid #d9ccb4;
+	background-color: #fefec1;
+	color: #666;
+	line-height: 18px;
+	padding: 4px 12px 2px 8px;
+	width: 217px;
+	margin-top: 6px
+}
+
+.input_tip {
+	color: #c00;
+	padding: 2px 0;
+	font-size: 12px
+}
+
+#autocomplete1,#autocomplete2 {
+	border: 1px solid #c1c1c1;
+	border-top: none;
+	display: none;
+	background: white;
+	font-family: verdana;
+	height: 50px
+}
+
+#autocomplete1 div,#autocomplete2 div {
+	padding: 3px 2px
+}
+
+#autocomplete1 .active,#autocomplete2 .active {
+	background: #3cf;
+	color: white
+}
+
+.dialog {
+	width: 360px;
+	border: 1px solid #666;
+	font-size: 14px;
+	color: #666;
+	list-style: none;
+	text-align: left
+}
+
+.dialog .head {
+	background: url(../images/bg_flttit.gif) repeat-x 0 0;
+	border: 1px solid #fff;
+	position: relative;
+	color: #323232;
+	padding-left: 15px;
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold
+}
+
+.dialog .close {
+	position: absolute;
+	top: 11px;
+	right: 12px;
+	background: url(../images/icon_close.gif) no-repeat 0 0;
+	display: block;
+	width: 10px;
+	height: 10px
+}
+
+.dialog .body {
+	padding: 0 16px 20px;
+	background: #fff
+}
+
+.dialog select,.dialog input {
+	vertical-align: middle
+}
+
+.dialog table,.dialog th,.dialog td {
+	margin: 0;
+	padding: 0
+}
+
+.dialog cite,.dialog em {
+	font-style: normal
+}
+
+.freeM_btn {
+	clear: both;
+	overflow: hidden;
+	zoom: 1;
+	font-weight: bold
+}
+
+.freeM_btn a,.freeM_btn span {
+	float: left;
+	background-image: url(../images/btn_flt.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	line-height: 30px;
+	height: 30px;
+	color: #111
+}
+
+.freeM_btn a:link,.freeM_btn a:visited {
+	background-position: 0 0;
+	padding-left: 18px
+}
+
+.freeM_btn a:link span,.freeM_btn a:visited span {
+	background-position: right 0;
+	padding-right: 18px
+}
+
+.freeM_btn a:hover {
+	background-position: 0 -30px;
+	padding-left: 18px;
+	text-decoration: none
+}
+
+.freeM_btn a:hover span {
+	background-position: right -30px;
+	padding-right: 18px;
+	text-decoration: none
+}
+
+.tip_table {
+	font-size: 12px;
+	padding-top: 4px
+}
+
+.tipR {
+	color: #c00
+}
+
+.input_w1 {
+	width: 171px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #c1c1c1;
+	font-family: verdana
+}
+
+.userM {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 14px
+}
+
+.login_fail {
+	margin: 0 0 0 40px
+}
+
+.login_fail th,.login_fail td {
+	font-weight: normal;
+	font-size: 14px
+}
+
+.login_fail .freeM_btn {
+	margin-top: 15px
+}
+
+.login_fail .vtop {
+	vertical-align: top;
+	padding-top: 8px
+}
+
+.check_name {
+	font-size: 12px
+}
+
+.check_name label {
+	vertical-align: -2px;
+	cursor: pointer;
+	padding-right: 10px
+}
+
+.safeTipflt {
+	display: none;
+	font-size: 12px;
+	border: 1px solid #d8ccb4;
+	background-color: #fefec1;
+	color: #626667;
+	line-height: 18px;
+	padding: 3px 15px 3px 18px;
+	width: 192px;
+	margin-top: 4px
+}
+
+.regist {
+	text-align: center
+}
+
+.regist .text {
+	font-weight: bold;
+	line-height: 60px;
+	font-size: 14px;
+	text-align: center
+}
+
+.regist .freeM_btn {
+	margin-left: 116px
+}
+
+.loginMail {
+	padding: 10px 0 0 0;
+	font-size: 14px
+}
+
+.loginMail .userM {
+	text-align: center;
+	line-height: 58px;
+	overflow: hidden;
+	font-size: 16px
+}
+
+.loginMail .freeM_btn {
+	margin-left: 116px
+}

@@ -1,0 +1,21 @@
+
+th.short {width:20px}
+th.med {width:200px}
+th.long {width:250px}
+
+
+td {font-size: 12;}
+td.short {width:150px}
+td.med {width:400px}
+td.long {width:400px}
+td.little {width:30px}
+
+
+input.short {width:150px}
+input.med {width:180px}
+input.long {width:1050px}
+
+textarea.long {width:500px}
+
+span {color:red}
+

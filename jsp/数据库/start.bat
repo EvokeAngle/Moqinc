@@ -1,0 +1,1 @@
+sqlplus "sys/sys as sysdba" @createuser.sql
