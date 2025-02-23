@@ -1,9 +1,0 @@
-com.devon.dao.db
-com.devon.dao.dto
-com.devon.dao.impl
-com.devon.dao.inf
-com.devon.filter
-com.devon.servlet.admin
-com.devon.servlet.common
-com.devon.servlet.pub
-com.devon.util
